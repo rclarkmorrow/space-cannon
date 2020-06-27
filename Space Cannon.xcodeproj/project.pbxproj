@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A832BB5519FB2503007A7AD3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A832BB5319FB2503007A7AD3 /* spark.png */; };
+		A848A51C19FACB18004DFCE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A848A51B19FACB18004DFCE1 /* main.m */; };
+		A848A51F19FACB18004DFCE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A848A51E19FACB18004DFCE1 /* AppDelegate.m */; };
+		A848A52219FACB18004DFCE1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A848A52119FACB18004DFCE1 /* GameScene.m */; };
+		A848A52419FACB18004DFCE1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A848A52319FACB18004DFCE1 /* GameScene.sks */; };
+		A848A52719FACB18004DFCE1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A848A52619FACB18004DFCE1 /* GameViewController.m */; };
+		A848A52A19FACB18004DFCE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A848A52819FACB18004DFCE1 /* Main.storyboard */; };
+		A848A52C19FACB18004DFCE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A848A52B19FACB18004DFCE1 /* Images.xcassets */; };
+		A848A52F19FACB18004DFCE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A848A52D19FACB18004DFCE1 /* LaunchScreen.xib */; };
+		A848A53B19FACB18004DFCE1 /* Space_CannonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A848A53A19FACB18004DFCE1 /* Space_CannonTests.m */; };
+		A8524A3919FC15D600224735 /* LifeBarExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A8524A3819FC15D600224735 /* LifeBarExplosion.sks */; };
+		A8524A3B19FC1DEE00224735 /* BallEdgeExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A8524A3A19FC1DEE00224735 /* BallEdgeExplosion.sks */; };
+		A8524A3D19FC211300224735 /* GameOverExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A8524A3C19FC211300224735 /* GameOverExplosion.sks */; };
+		A8B8AD1819FC508100B1E00C /* Bounce.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD1319FC508100B1E00C /* Bounce.caf */; };
+		A8B8AD1919FC508100B1E00C /* DeepExplosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD1419FC508100B1E00C /* DeepExplosion.caf */; };
+		A8B8AD1A19FC508100B1E00C /* Explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD1519FC508100B1E00C /* Explosion.caf */; };
+		A8B8AD1B19FC508100B1E00C /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD1619FC508100B1E00C /* Laser.caf */; };
+		A8B8AD1C19FC508100B1E00C /* Zap.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD1719FC508100B1E00C /* Zap.caf */; };
+		A8B8AD1F19FC54D300B1E00C /* GameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8AD1E19FC54D300B1E00C /* GameMenu.m */; };
+		A8B8AD2119FC6B5100B1E00C /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD2019FC6B5100B1E00C /* BallTrail.sks */; };
+		A8B8AD2419FC6EDD00B1E00C /* GameBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8AD2319FC6EDD00B1E00C /* GameBall.m */; };
+		A8B8AD2619FCA63400B1E00C /* ShieldUp.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD2519FCA63400B1E00C /* ShieldUp.caf */; };
+		A8B8AD2819FD569800B1E00C /* ObservingTheStar.caf in Resources */ = {isa = PBXBuildFile; fileRef = A8B8AD2719FD569800B1E00C /* ObservingTheStar.caf */; };
+		A8FC372E19FB2A5C00213638 /* HaloExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A8FC372D19FB2A5C00213638 /* HaloExplosion.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A848A53519FACB18004DFCE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A848A50E19FACB18004DFCE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A848A51519FACB18004DFCE1;
+			remoteInfo = "Space Cannon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A832BB5319FB2503007A7AD3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A848A51619FACB18004DFCE1 /* Space Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848A51A19FACB18004DFCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848A51B19FACB18004DFCE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A848A51D19FACB18004DFCE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A848A51E19FACB18004DFCE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A848A52019FACB18004DFCE1 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		A848A52119FACB18004DFCE1 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		A848A52319FACB18004DFCE1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A848A52519FACB18004DFCE1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		A848A52619FACB18004DFCE1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		A848A52919FACB18004DFCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A848A52B19FACB18004DFCE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A848A52E19FACB18004DFCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A848A53419FACB18004DFCE1 /* Space CannonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CannonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A848A53919FACB18004DFCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A848A53A19FACB18004DFCE1 /* Space_CannonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CannonTests.m; sourceTree = "<group>"; };
+		A8524A3819FC15D600224735 /* LifeBarExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LifeBarExplosion.sks; sourceTree = "<group>"; };
+		A8524A3A19FC1DEE00224735 /* BallEdgeExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallEdgeExplosion.sks; sourceTree = "<group>"; };
+		A8524A3C19FC211300224735 /* GameOverExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverExplosion.sks; sourceTree = "<group>"; };
+		A8B8AD1319FC508100B1E00C /* Bounce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bounce.caf; sourceTree = "<group>"; };
+		A8B8AD1419FC508100B1E00C /* DeepExplosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeepExplosion.caf; sourceTree = "<group>"; };
+		A8B8AD1519FC508100B1E00C /* Explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.caf; sourceTree = "<group>"; };
+		A8B8AD1619FC508100B1E00C /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		A8B8AD1719FC508100B1E00C /* Zap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zap.caf; sourceTree = "<group>"; };
+		A8B8AD1D19FC54D300B1E00C /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenu.h; sourceTree = "<group>"; };
+		A8B8AD1E19FC54D300B1E00C /* GameMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenu.m; sourceTree = "<group>"; };
+		A8B8AD2019FC6B5100B1E00C /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
+		A8B8AD2219FC6EDD00B1E00C /* GameBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBall.h; sourceTree = "<group>"; };
+		A8B8AD2319FC6EDD00B1E00C /* GameBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBall.m; sourceTree = "<group>"; };
+		A8B8AD2519FCA63400B1E00C /* ShieldUp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ShieldUp.caf; sourceTree = "<group>"; };
+		A8B8AD2719FD569800B1E00C /* ObservingTheStar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ObservingTheStar.caf; path = Sounds/ObservingTheStar.caf; sourceTree = "<group>"; };
+		A8FC372D19FB2A5C00213638 /* HaloExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HaloExplosion.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A848A51319FACB18004DFCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848A53119FACB18004DFCE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A848A50D19FACB18004DFCE1 = {
+			isa = PBXGroup;
+			children = (
+				A848A51819FACB18004DFCE1 /* Space Cannon */,
+				A848A53719FACB18004DFCE1 /* Space CannonTests */,
+				A848A51719FACB18004DFCE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A848A51719FACB18004DFCE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A848A51619FACB18004DFCE1 /* Space Cannon.app */,
+				A848A53419FACB18004DFCE1 /* Space CannonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A848A51819FACB18004DFCE1 /* Space Cannon */ = {
+			isa = PBXGroup;
+			children = (
+				A848A51D19FACB18004DFCE1 /* AppDelegate.h */,
+				A848A51E19FACB18004DFCE1 /* AppDelegate.m */,
+				A848A52019FACB18004DFCE1 /* GameScene.h */,
+				A848A52119FACB18004DFCE1 /* GameScene.m */,
+				A8B8AD1D19FC54D300B1E00C /* GameMenu.h */,
+				A8B8AD1E19FC54D300B1E00C /* GameMenu.m */,
+				A8B8AD2219FC6EDD00B1E00C /* GameBall.h */,
+				A8B8AD2319FC6EDD00B1E00C /* GameBall.m */,
+				A848A52319FACB18004DFCE1 /* GameScene.sks */,
+				A848A52519FACB18004DFCE1 /* GameViewController.h */,
+				A848A52619FACB18004DFCE1 /* GameViewController.m */,
+				A848A52819FACB18004DFCE1 /* Main.storyboard */,
+				A848A52B19FACB18004DFCE1 /* Images.xcassets */,
+				A848A52D19FACB18004DFCE1 /* LaunchScreen.xib */,
+				A848A51919FACB18004DFCE1 /* Supporting Files */,
+				A8B8AD2919FD56D200B1E00C /* Music */,
+				A8B8AD1219FC508100B1E00C /* Sounds */,
+				A832BB5319FB2503007A7AD3 /* spark.png */,
+				A8524A3819FC15D600224735 /* LifeBarExplosion.sks */,
+				A8FC372D19FB2A5C00213638 /* HaloExplosion.sks */,
+				A8524A3A19FC1DEE00224735 /* BallEdgeExplosion.sks */,
+				A8524A3C19FC211300224735 /* GameOverExplosion.sks */,
+				A8B8AD2019FC6B5100B1E00C /* BallTrail.sks */,
+			);
+			path = "Space Cannon";
+			sourceTree = "<group>";
+		};
+		A848A51919FACB18004DFCE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848A51A19FACB18004DFCE1 /* Info.plist */,
+				A848A51B19FACB18004DFCE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A848A53719FACB18004DFCE1 /* Space CannonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A848A53A19FACB18004DFCE1 /* Space_CannonTests.m */,
+				A848A53819FACB18004DFCE1 /* Supporting Files */,
+			);
+			path = "Space CannonTests";
+			sourceTree = "<group>";
+		};
+		A848A53819FACB18004DFCE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A848A53919FACB18004DFCE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8B8AD1219FC508100B1E00C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8AD1319FC508100B1E00C /* Bounce.caf */,
+				A8B8AD1419FC508100B1E00C /* DeepExplosion.caf */,
+				A8B8AD1519FC508100B1E00C /* Explosion.caf */,
+				A8B8AD1619FC508100B1E00C /* Laser.caf */,
+				A8B8AD2519FCA63400B1E00C /* ShieldUp.caf */,
+				A8B8AD1719FC508100B1E00C /* Zap.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A8B8AD2919FD56D200B1E00C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A8B8AD2719FD569800B1E00C /* ObservingTheStar.caf */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A848A51519FACB18004DFCE1 /* Space Cannon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848A53E19FACB18004DFCE1 /* Build configuration list for PBXNativeTarget "Space Cannon" */;
+			buildPhases = (
+				A848A51219FACB18004DFCE1 /* Sources */,
+				A848A51319FACB18004DFCE1 /* Frameworks */,
+				A848A51419FACB18004DFCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Cannon";
+			productName = "Space Cannon";
+			productReference = A848A51619FACB18004DFCE1 /* Space Cannon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A848A53319FACB18004DFCE1 /* Space CannonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A848A54119FACB18004DFCE1 /* Build configuration list for PBXNativeTarget "Space CannonTests" */;
+			buildPhases = (
+				A848A53019FACB18004DFCE1 /* Sources */,
+				A848A53119FACB18004DFCE1 /* Frameworks */,
+				A848A53219FACB18004DFCE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A848A53619FACB18004DFCE1 /* PBXTargetDependency */,
+			);
+			name = "Space CannonTests";
+			productName = "Space CannonTests";
+			productReference = A848A53419FACB18004DFCE1 /* Space CannonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A848A50E19FACB18004DFCE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = self;
+				TargetAttributes = {
+					A848A51519FACB18004DFCE1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A848A53319FACB18004DFCE1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A848A51519FACB18004DFCE1;
+					};
+				};
+			};
+			buildConfigurationList = A848A51119FACB18004DFCE1 /* Build configuration list for PBXProject "Space Cannon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A848A50D19FACB18004DFCE1;
+			productRefGroup = A848A51719FACB18004DFCE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A848A51519FACB18004DFCE1 /* Space Cannon */,
+				A848A53319FACB18004DFCE1 /* Space CannonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A848A51419FACB18004DFCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8524A3919FC15D600224735 /* LifeBarExplosion.sks in Resources */,
+				A8FC372E19FB2A5C00213638 /* HaloExplosion.sks in Resources */,
+				A8B8AD2619FCA63400B1E00C /* ShieldUp.caf in Resources */,
+				A8B8AD1A19FC508100B1E00C /* Explosion.caf in Resources */,
+				A832BB5519FB2503007A7AD3 /* spark.png in Resources */,
+				A8B8AD1B19FC508100B1E00C /* Laser.caf in Resources */,
+				A848A52F19FACB18004DFCE1 /* LaunchScreen.xib in Resources */,
+				A8B8AD2119FC6B5100B1E00C /* BallTrail.sks in Resources */,
+				A8B8AD1C19FC508100B1E00C /* Zap.caf in Resources */,
+				A8B8AD2819FD569800B1E00C /* ObservingTheStar.caf in Resources */,
+				A848A52C19FACB18004DFCE1 /* Images.xcassets in Resources */,
+				A8524A3B19FC1DEE00224735 /* BallEdgeExplosion.sks in Resources */,
+				A848A52419FACB18004DFCE1 /* GameScene.sks in Resources */,
+				A848A52A19FACB18004DFCE1 /* Main.storyboard in Resources */,
+				A8B8AD1819FC508100B1E00C /* Bounce.caf in Resources */,
+				A8524A3D19FC211300224735 /* GameOverExplosion.sks in Resources */,
+				A8B8AD1919FC508100B1E00C /* DeepExplosion.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848A53219FACB18004DFCE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A848A51219FACB18004DFCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B8AD2419FC6EDD00B1E00C /* GameBall.m in Sources */,
+				A848A52719FACB18004DFCE1 /* GameViewController.m in Sources */,
+				A8B8AD1F19FC54D300B1E00C /* GameMenu.m in Sources */,
+				A848A51F19FACB18004DFCE1 /* AppDelegate.m in Sources */,
+				A848A52219FACB18004DFCE1 /* GameScene.m in Sources */,
+				A848A51C19FACB18004DFCE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A848A53019FACB18004DFCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A848A53B19FACB18004DFCE1 /* Space_CannonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A848A53619FACB18004DFCE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A848A51519FACB18004DFCE1 /* Space Cannon */;
+			targetProxy = A848A53519FACB18004DFCE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A848A52819FACB18004DFCE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848A52919FACB18004DFCE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A848A52D19FACB18004DFCE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A848A52E19FACB18004DFCE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A848A53C19FACB18004DFCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A848A53D19FACB18004DFCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A848A53F19FACB18004DFCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Cannon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A848A54019FACB18004DFCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Cannon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A848A54219FACB18004DFCE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space CannonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Cannon.app/Space Cannon";
+			};
+			name = Debug;
+		};
+		A848A54319FACB18004DFCE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space CannonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Cannon.app/Space Cannon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A848A51119FACB18004DFCE1 /* Build configuration list for PBXProject "Space Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848A53C19FACB18004DFCE1 /* Debug */,
+				A848A53D19FACB18004DFCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A848A53E19FACB18004DFCE1 /* Build configuration list for PBXNativeTarget "Space Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848A53F19FACB18004DFCE1 /* Debug */,
+				A848A54019FACB18004DFCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A848A54119FACB18004DFCE1 /* Build configuration list for PBXNativeTarget "Space CannonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A848A54219FACB18004DFCE1 /* Debug */,
+				A848A54319FACB18004DFCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A848A50E19FACB18004DFCE1 /* Project object */;
+}
